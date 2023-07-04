@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import NavbarComponent from './components/NavbarComponent';
+import HomePage from './components/HomePage';
+import About from './components/About';
 import './App.css';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
+  const year = new Date().getFullYear();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarComponent />
+      <HomePage />
+      <About />
+      <Projects />
+      <Contact />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <footer className='fw-bold'>
+        {`Copyright © ${year} | Shubham Saini | All Rights Reserved`}
+      </footer>
+    </>
   );
 }
 
