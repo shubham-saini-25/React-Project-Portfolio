@@ -20,7 +20,7 @@ const Contact = () => {
     }
 
     return (
-        <Container id="contact" style={{ marginTop: '13%' }}>
+        <Container id="contact" style={{ marginTop: '14%', marginBottom: '10%' }}>
             <Card className='card'>
                 <Card.Header>
                     <h1 className="mb-3 text-center">Contact Form</h1>

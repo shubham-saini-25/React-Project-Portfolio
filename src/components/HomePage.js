@@ -5,8 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import MongoDB from '../images/mongodb.png';
 import jQuery from '../images/jQuery.png';
 import HiIcon from '../images/hi.png';
-import JS from '../images/js.png';
 import MyImg from '../shubham.png';
+import JS from '../images/js.png';
 
 const HomePage = () => {
     return (
