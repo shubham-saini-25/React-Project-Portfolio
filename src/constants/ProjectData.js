@@ -4,18 +4,17 @@ export const MyProjects = [
         title: "E-Commerce Website",
         image: require('../images/e-commerce.png'),
         url: 'https://github.com/shubham-saini-25/React-Project-Ecommece',
-        description: `I made an E-Commerce website on MERN Stack. In this
-                website you can Register and Login users. Here you
-                can sell and buy products on this website. I used
-                Stripe payment gateway for collecting payments.
-                This website provides a platform for sellers to
-                list their products, including detailed descriptions,
-                high-quality images, pricing. Customers can add products
-                to their shopping cart while browsing the website. The 
-                cart retains selected items until the customer proceeds
-                to the checkout process. At checkout, customers can
-                select a shipping method, provide billinginformation,
-                 and complete the payment.`
+        description: `I made this E-Commerce website on MERN Stack. 
+                In this website you can Register and Login users.
+                I used Stripe payment gateway for collecting payments.
+                This website allow admin to list their products, 
+                including detailed descriptions, high-quality images, 
+                pricing. Customers can add products to their shopping 
+                cart while browsing the website. The cart retains 
+                selected items until the customer proceeds to the 
+                checkout process. At checkout, customers can select a 
+                shipping method, provide billing information, and 
+                complete the payment.`
     },
     {
         id: '2',
@@ -30,9 +29,7 @@ export const MyProjects = [
                 your activities accordingly. It often includes features
                 like hourly and daily forecasts, radar maps, and severe
                 weather alerts to keep you informed about any potential
-                storms or adverse weather conditions. By using a weather
-                app, you can conveniently check the forecast before heading
-                out, ensuring you are prepared for the day ahead.`
+                storms or adverse weather conditions.`
     },
     {
         id: '3',

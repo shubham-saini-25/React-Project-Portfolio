@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaFacebookSquare, FaInstagramSquare, FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPhp, FaLaravel } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPhp, FaLaravel } from 'react-icons/fa';
+import { FaFacebookSquare, FaInstagramSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Container, Row, Col } from 'react-bootstrap';
 import MongoDB from '../images/mongodb.png';
 import jQuery from '../images/jQuery.png';

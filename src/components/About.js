@@ -14,12 +14,13 @@ const About = () => {
                         <Col md={6}>
                             <Card.Img src={CodingImg} alt='Coder' />
                         </Col>
-                        <Col md={6}>
-                            I am a beginner front-end developer and I am skilled in
-                            HTML,CSS and JavaScript, as well as the React framework.
-                            I done my graduation in Information Technology. Currently
-                            I am working with a Start-Up oraganisation HestaBit Technology
-                            as Trainee Software Engineer. Here I work on Php and Laravel.
+                        <Col md={6} className='text-center mt-3'>
+                            I am a beginner front-end developer with skills
+                            in HTML, CSS, and JavaScript, including the React
+                            framework. I have recently graduated in Information
+                            Technology. Currently, I am working as a Trainee
+                            Software Engineer at HestaBit Technologies. In my
+                            role, I primarily work with PHP and Laravel.
                         </Col>
                     </Row>
                 </Card.Body>
